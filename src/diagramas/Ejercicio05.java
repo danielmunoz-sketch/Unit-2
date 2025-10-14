@@ -11,10 +11,10 @@ public class Ejercicio05 {
 		System.out.println("Introduzca un número: ");
 		num = reader.nextInt();
 		
-		if (num>=0) {
-			System.out.println("Es positivo");
-		}else {
+		if (num<0) {
 			System.out.println("Es negativo");
+		}else {
+			System.out.println("Es positivo");
 		}
 		reader.close();
 	}
