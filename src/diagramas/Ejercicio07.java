@@ -2,7 +2,7 @@ package diagramas;
 
 import java.util.Scanner;
 
-public class Ejercicio04 {
+public class Ejercicio07 {
 
 	public static void main(String[] args) {
 		Scanner reader = new Scanner (System.in);
@@ -18,8 +18,10 @@ public class Ejercicio04 {
 		if (num2 > num1) {
 			System.out.println(num2 + " es mayor que " + num1);
 			
-		}else {
+		}else if (num1 > num2){
 			System.out.println(num1 + " es mayor que " + num2);
+		}else {
+			System.out.println("Son iguales");
 		}
 
 		reader.close();
