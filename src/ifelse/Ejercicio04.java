@@ -25,7 +25,7 @@ public class Ejercicio04 {
       System.out.println("Tiene cinco cifras.");
     }
     
-		reader.close();
+	reader.close();
 	}
 
 }
