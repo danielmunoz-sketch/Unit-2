@@ -15,7 +15,7 @@ public class Ejercicio04 {
       System.out.println("Número incorrecto. Introduzca un número entre 0 y 99999");
     } else if(number < 10) {
       System.out.println("Tiene una cifra.");
-		}else if(number < 100) {
+	}else if(number < 100) {
       System.out.println("Tiene dos cifras.");
     }else if(number < 1000) {
       System.out.println("Tiene tres cifras.");
