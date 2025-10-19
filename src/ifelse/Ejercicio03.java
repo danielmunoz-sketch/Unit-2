@@ -37,6 +37,9 @@ public class Ejercicio03 {
 			System.out.println("La ecuación no tiene solución");
 			
 		}
+
+		reader.close();
 	}
 
 }
+
