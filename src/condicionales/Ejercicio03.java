@@ -41,6 +41,8 @@ public class Ejercicio03 {
 		}
 		
 		System.out.println("La letra correspondiente es: " + letra);
+		
+		reader.close();
 	}
 
 }

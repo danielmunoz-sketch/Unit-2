@@ -14,6 +14,8 @@ public class Ejercicio02 {
 		num = num < 0 ? -num : num;
 		
 		System.out.println("El valor absoluto es " + num);
+		
+		reader.close();
 	}
 
 }
